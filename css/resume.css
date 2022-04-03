@@ -1,0 +1,107 @@
+html{font-family:"Garamond";}
+body{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+#main{
+	height: 100vh;
+	box-sizing: border-box;
+	background-color: #ffffff;
+}
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-family: "Garamond";
+	padding: 5px 50px;
+	background-color:#c8102e;
+}
+.logo{
+    max-height: 25px;
+}
+.navigation{
+	display: flex;
+}
+.navigation li a{
+	padding: 10px 15px;
+	color:#ffffff;
+	font-size: 12px;
+}
+.navigation li a:hover{
+	background-color:#ffffff;
+	transition: all ease 0.4s;
+	border-radius: 400px;
+	color:#000000;
+}
+
+h1{
+	font-size: 32px;
+}
+h2{
+	font-size:16px;
+	font-family: "Anko";
+	font-style: italic;
+	position: relative;
+	left: 20px;
+}
+h3{
+	font-size:16px;
+	position: relative;
+	left: 20px;
+}
+.projects ul{
+	list-style-type: circle;
+	position: relative;
+	left: 30px;
+}
+
+.skills ul{
+	list-style-type: circle;
+	position: relative;
+	left: 30px;
+}
+
+.experience ul{
+	list-style-type: circle;
+	position: relative;
+	left: 30px;
+}
+.education ul{
+	list-style-type: circle;
+	position: relative;
+	left: 30px;
+}
+.projects, .skills, .experience, .education{
+	position: relative;
+	left: 100px;
+}
+.btn_resume{
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 400px;
+    transition: all .2s;
+    background: #c8102e;
+    border: 2px solid #c8102e;
+	text-decoration: none;
+	position: absolute;
+	top: 1430px;
+	left: 100px;
+
+}
+.btn_resume:hover{
+    background: transparent;
+    border-color: #c8102e;
+    color: #000000;
+	transition: all ease 0.5s;
+}
