@@ -6,4 +6,5 @@ The list of features and things I would like to add:
 4. I would like to add something to the front page to make it more eye-catching. I am thinking about adding a picture of me or a piece of art.
 5. Currently, I do not like how the buttons look, and I am not sure what to replace them with.
 6. I would like to change the transitions from #main section to #about section
-7. Obviously, I need to add more content such as an elevator pitch.
+7. I need to make a navigation bar to be at the top of the page all the time
+8. Obviously, I need to add more content such as an elevator pitch.
